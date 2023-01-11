@@ -20,6 +20,23 @@
     <section class="header">
       <header>        
         <div class="header-grey">
+            <div class="header__compound">
+            <div class="header__menu">
+                <ul class="nav">
+                  <li>
+                    <a href="#">Navigation</a>
+                    <ul >
+                      <li class="js-scroll"><a  href="#">Summary of Qualifications</a></li>
+                      <li class="js-scroll"><a  href="#">Technical Skills</a></li>
+                      <li class="js-scroll"><a  href="#"">Professional Experience</a></li>
+                      <li class="js-scroll"><a  href="#">Sertificats</a></li>
+                      <li class="js-scroll"><a  href="#">My project</a></li>
+                     
+                    </ul>
+                  </li>
+                  </ul>
+            </div>
+        </div>
             <div class="wrapper-grey">
                 <div class="personPhoto">
                     <img class="personPhoto-same" src="./my-photo/personPhoto.png" alt="Photo">
@@ -153,13 +170,44 @@
 
                     <div>
                         <h2 class="main-project">My project</h2>
-                        <ul>
-                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/My-final-project-at-the-end-of-the-1nd-course-on-web-development-in-HTML-SCC"><b>Web site Swimming Club</b></a></li>
-                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/My-final-project-at-the-end-of-the-2nd-course-on-web-development-in-JAVA-SCRIPT"><b>Virtual Piano</b></a></li>
-                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/2-course-home-work"><b>Pin-Pong JS</b></b></a></li>
-                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/CV"><b>MY CV</b></b></a></li>                            
-                        </ul>
 
+                        <div class="slayder-container">
+                        <ul class="project-link">
+                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/My-final-project-at-the-end-of-the-2nd-course-on-web-development-in-JAVA-SCRIPT"><b>Virtual Piano</b></a></li>
+                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/My-final-project-at-the-end-of-the-1nd-course-on-web-development-in-HTML-SCC"><b>Web site Swimming Club</b></a></li>                                                       
+                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/CV"><b>MY CV</b></b></a></li>     
+                            <li><a class="git-project_repository" target="_blank" href="https://github.com/Oknokus/2-course-home-work"><b>Pin-Pong JS</b></b></a></li>                       
+                        </ul>
+                        <div class="main__slayder">
+                            <div class="adaptivSlayder">
+                              <input type="radio" name="Slayder" id="slaid1" checked>
+                              <input type="radio" name="Slayder" id="slaid2" >
+                              <input type="radio" name="Slayder" id="slaid3">
+                              <input type="radio" name="Slayder" id="slaid4">
+                              <input type="radio" name="Slayder" id="slaid5">
+                  
+                              <div class="slayder">
+                                <label for="slaid1"></label>
+                                <label for="slaid2"></label>
+                                <label for="slaid3"></label>
+                                <label for="slaid4"></label>
+                                <label for="slaid5"></label>
+                               
+                              </div>
+                  
+                              <div class="adaptivSlayder__item">
+                                <div class="slayder__img">
+                                  <img src="./project-photo/piano.png" alt="piano">
+                                  <img src="./project-photo/cv.png" alt="cv">                                 
+                                  <img src="./project-photo/web-site1.png" alt="web-site">
+                                  <img src="./project-photo/web-site2.png" alt="web-site">
+                                  <img src="./project-photo//pin-pong.png" alt="pin-pong">
+                                
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
                     </div> 
                 </div>            
             </div>
@@ -175,5 +223,6 @@
     </footer>
 </section>
 </body>
+<script src="./script.js"></script>
 
 </html>
