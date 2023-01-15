@@ -1,3 +1,11 @@
+:root {
+    --white: white;
+    --pink: rgb(150, 111, 111);
+    --shadow: rgba(0, 0, 0, 0.74);
+    --darkGrey: #3e4246;
+    --grey: rgb(146, 145, 145);
+}
+
 body {
     font-family: 'Bitter', serif;
     font-family: 'Raleway', sans-serif;
@@ -31,24 +39,24 @@ html {
 .navigation__title {
     font-size: 34px;
     padding: 10px;
-    background-color: white;
+    background-color: var(--white);
     display: block;
-    color: rgb(150, 111, 111);
+    color: var(--pink);
     text-decoration: none;
     border-radius: 5px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.74);
+    text-shadow: 1px 1px 1px var(--shadow);
     transition: 0.5s ease-in-out;
     z-index: -10;
     margin-bottom: 5px;
 }
 
 .navigation:hover .navigation__title {
-    background-color: #3e4246;
+    background-color: var(--darkGrey);
 }
 
 .navigation__menu {
     padding: 0;
-    background-color: #3e4246;
+    background-color: var(--darkGrey);
     list-style-type: none;
     position: absolute;
     font-size: 17px;
@@ -74,18 +82,18 @@ html {
 }
 
 .navigation__menu_item_link:hover {
-    color: rgb(150, 111, 111);
+    color: var(--pink);
 }
 
 .sideBar {
-    box-shadow: 2px 3px 35px #333;
+    box-shadow: 2px 3px 35px var(--shadow);
     border-radius: 5px;
     margin-left: 20px;
     padding: 20px;
 }
 
 .sideBar-grey {
-    background-color: rgb(121, 119, 119);
+    background-color:var(--grey);
     height: 100%;
     border-radius: 5px;
 }
@@ -105,7 +113,7 @@ html {
 }
 
 .person__photo_image:hover {
-    box-shadow: 2px 2px 3px 3px #333;
+    box-shadow: 2px 2px 3px 3px var(--shadow);
 }
 
 .person__info {
@@ -114,18 +122,18 @@ html {
 
 .person__info_title {
     font-size: 28px;
-    color: #fff;
+    color:  var(--white);
     text-decoration: underline;
 }
 
 .person__info_description {
     font-size: 20px;
-    color: #fff;
+    color: var(--white);
 }
 
 .person__info_label {
     font-size: 25px;
-    color: #fff;
+    color: var(--white);
     padding-top: 20px;
 }
 
@@ -160,7 +168,7 @@ html {
 
 .social__link {
     font-size: 14px;
-    color: #fff;
+    color: var(--white);
     margin: 0;
     position: absolute;
     top: 100%;
@@ -173,20 +181,20 @@ html {
 
 .main {
     padding: 20px 20px 20px 50px;
-    box-shadow: 2px 3px 35px #333;
+    box-shadow: 2px 3px 35px var(--shadow);
     border-radius: 5px;
     margin: 0 40px 0 40px;
 }
 
 .main-white {
-    background-color: #fff;
+    background-color: var(--white);
     max-width: 100%;
     height: max-content;
 }
 
 .main__title {
     font-size: 32px;
-    color: #333;
+    color: var(--darkGrey);
 }
 
 .main__section_title {
@@ -200,13 +208,13 @@ html {
 
 .main__section_link {
     font-size: 20px;
-    color: rgb(150, 93, 93);
+    color: var(--pink);
     text-decoration: none;
     transition: 0.1s ease-in-out;
 }
 
 .main__section_link:hover {
-    color: #555;
+    color: var(--darkGrey);
     text-decoration: underline;
 }
 
@@ -245,11 +253,11 @@ html {
 .footer {
     width: 100%;
     height: 30px;
-    background-color: rgb(146, 145, 145);
+    background-color: var(--grey);
     margin-top: 40px;
     display: flex;
     font-size: 25px;
-    color: #fff;
+    color: var(--white);
     padding: 5px 0;
     justify-content: center;
 }
@@ -277,33 +285,33 @@ html {
     height: 10px;
     cursor: pointer;
     margin: 0 2px;
-    border: 2px solid #2f363c;
+    border: 2px solid var(--darkGrey);
     transition: 0.2s;
 }
 
 .slider__labels_label:hover {
     transform: scale(1.1);
-    background-color: black;
+    background-color: var(--darkGrey);
 }
 
 #slide1:checked ~ .slider__labels_label[for="slide1"] {
-    background-color: white;
+    background-color: var(--white);
 }
 
 #slide2:checked ~ .slider__labels_label[for="slide2"] {
-    background-color: white;
+    background-color: var(--white);
 }
 
 #slide3:checked ~ .slider__labels_label[for="slide3"] {
-    background-color: white;
+    background-color: var(--white);
 }
 
 #slide4:checked ~ .slider__labels_label[for="slide4"] {
-    background-color: white;
+    background-color: var(--white);
 }
 
 #slide5:checked ~ .slider__labels_label[for="slide5"] {
-    background-color: white;
+    background-color: var(--white);
 }
 
 .slider__images_wrapper {
@@ -412,7 +420,7 @@ html {
 
     .navigation__title {
         font-size: 22px;
-        background-color: #2f363c;
+        background-color: var(--darkGrey);
     }
 
     .navigation {
@@ -429,7 +437,7 @@ html {
 
     .main {
         padding: 5px 5px 5px 10px;
-        box-shadow: 2px 3px 35px #333;
+        box-shadow: 2px 3px 35px var(--shadow);
         border-radius: 5px;
         margin: 0 10px 0 10px;
     }
