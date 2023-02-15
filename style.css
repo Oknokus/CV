@@ -369,8 +369,8 @@ html {
 
 @media screen and (max-width: 1200px) {
     .person__photo_image {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .person__links_link {
@@ -401,8 +401,8 @@ html {
     }
 
     .person__photo_image {
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
     }
 
     .projects {
@@ -461,6 +461,11 @@ html {
         font-size: 25px;
         padding-top: 15px;
     }
+
+    .person__photo_image {
+        width: 50px;
+        height: 50px;
+    }
     
     .certificates__image {
         width: 200px;
@@ -472,6 +477,11 @@ html {
     .main__title {
         font-size: 15px;
         padding-top: 25px;
+    }
+
+    .person__photo_image {
+        width: 45px;
+        height: 45px;
     }
 
     .certificates__image {
@@ -525,8 +535,8 @@ html {
     }
 
     .person__photo_image {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 
     .main {
@@ -556,8 +566,7 @@ html {
         display: none;
     }
 
-    .social__img {
-        
+    .social__img {        
         width: 30px;
         height: 30px;
         margin-left: 0px;
