@@ -461,9 +461,132 @@ html {
         font-size: 25px;
         padding-top: 15px;
     }
-
+    
     .certificates__image {
         width: 200px;
         height: 150px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main__title {
+        font-size: 15px;
+        padding-top: 25px;
+    }
+
+    .certificates__image {
+        margin-bottom: 20px;
+        width: 150px;
+        height: 100px;
+    }
+
+    .main__section_title {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .main__section_item {
+        font-size: 12px;
+        margin: 5px 0 10px 0;
+    }
+
+    .main__section_link {
+        font-size: 14px;        
+    }
+
+    .navigation__title {
+        font-size: 12px;       
+    }
+
+    .navigation__menu_item_link {       
+        font-size: 11px;
+    }
+
+    .person__info_title {
+        font-size: 12px;
+        color: var(--shadow);
+    }
+
+    .person__info_label {
+        font-size: 11px;
+        color: var(--shadow);
+    }
+
+    .person__info_description {
+        font-size: 8px;
+        color: var(--darkGrey);
+    }
+
+    .social__img {
+        width: 20px;
+        height: 20px; 
+        margin-left: 0px;       
+        transition: 0.3s ease-in-out;
+    }
+
+    .person__photo_image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main {
+        text-align: center;
+    }
+
+    .sideBar {
+        text-align: center;       
+    }
+
+    .footer {       
+        font-size: 15px;   
+        height: 20px;    
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .person__info_title {
+        display: none;
+    }  
+
+    .person__info_label {
+        display: none;
+    }
+
+    .person__info_description {
+        display: none;
+    }
+
+    .social__img {
+        
+        width: 30px;
+        height: 30px;
+        margin-left: 0px;
+        transition: 0.3s ease-in-out;
+        margin-top: 10px;        
+    }  
+}
+
+@media screen and (max-width: 340px) {
+    .person__photo_image {
+       display: none;
+    }
+
+    .certificates__image {
+        margin-bottom: 20px;
+        width: 120px;
+        height: 70px;
+    }
+
+    .main {
+        padding: 5px 5px 5px 5px;
+        box-shadow: 2px 3px 35px var(--shadow);
+        border-radius: 5px;
+        margin: 0 10px 0 10px;
+        text-align: center;
+    }
+
+    .footer {       
+        height: 20px;       
+        font-size: 15px;      
     }
 }
