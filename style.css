@@ -553,10 +553,30 @@ html {
     }
 }
 
+@media screen and (max-width: 414px) {
+    .navigation__title {
+        font-size: 18x;
+      
+    }
+}
+
 @media screen and (max-width: 400px) {
     .person__info_title {
         display: none;
-    }  
+    } 
+    
+    .person__photo_image {
+        width: 50px;
+        height: 55px;
+    }
+
+    .person__info_title {
+        font-size: 12px;
+    }
+
+    .person__info_label {
+        font-size: 12px;
+    }
 
     .person__info_label {
         display: none;
@@ -566,12 +586,45 @@ html {
         display: none;
     }
 
-    .social__img {        
-        width: 30px;
-        height: 30px;
+    .social__img {
+        width: 40px;
+        height: 40px;
         margin-left: 0px;
         transition: 0.3s ease-in-out;
-        margin-top: 10px;        
+    }  
+}
+
+@media screen and (max-width: 375px) {
+    .person__info_title {
+        display: none;
+    } 
+
+    .navigation {
+        right: 0px;
+    }
+    
+    .person__photo_image {
+        width: 50px;
+        height: 55px;
+    }
+
+    .person__info_title {
+        font-size: 12px;
+    }
+
+    .person__info_label {
+        font-size: 12px;
+    }
+
+    .person__info_description {
+        display: none;
+    }
+
+    .social__img {
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+        transition: 0.3s ease-in-out;
     }  
 }
 
@@ -599,3 +652,24 @@ html {
         font-size: 15px;      
     }
 }
+
+@media screen and (max-width: 280px) {
+    .sideBar-grey {
+        display: none;
+    }
+
+    .social__img {
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+        transition: 0.3s ease-in-out;
+        margin-top: 10px;
+    }
+
+    .navigation {
+        right: 0px; 
+    }
+   
+}
+
+
