@@ -240,14 +240,15 @@ html {
 
 .projects {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
+    justify-content: first baseline;
+    margin-bottom: 25px;    
 }
 
 .projects__slider {
     height: 300px;
     width: 50%;
     margin-right: 40px;
+    margin-left: 55px;
 }
 
 .footer {
