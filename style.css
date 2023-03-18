@@ -315,6 +315,14 @@ html {
     background-color: var(--white);
 }
 
+#slide6:checked ~ .slider__labels_label[for="slide6"] {
+    background-color: var(--white);
+}
+
+#slide7:checked ~ .slider__labels_label[for="slide7"] {
+    background-color: var(--white);
+}
+
 .slider__images_wrapper {
     overflow: hidden;
 }
@@ -350,6 +358,14 @@ html {
 
 #slide5:checked ~ .slider__images_wrapper .slider__images {
     transform: translateX(-400%);
+}
+
+#slide6:checked ~ .slider__images_wrapper .slider__images {
+    transform: translateX(-500%);
+}
+
+#slide7:checked ~ .slider__images_wrapper .slider__images {
+    transform: translateX(-600%);
 }
 
 
