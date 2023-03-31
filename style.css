@@ -323,6 +323,10 @@ html {
     background-color: var(--white);
 }
 
+#slide8:checked ~ .slider__labels_label[for="slide8"] {
+    background-color: var(--white);
+}
+
 .slider__images_wrapper {
     overflow: hidden;
 }
@@ -366,6 +370,10 @@ html {
 
 #slide7:checked ~ .slider__images_wrapper .slider__images {
     transform: translateX(-600%);
+}
+
+#slide8:checked ~ .slider__images_wrapper .slider__images {
+    transform: translateX(-700%);
 }
 
 
@@ -429,6 +437,7 @@ html {
 
     .projects__slider {
         width: 100%;
+        margin-left: 0;
     }
 
     .social__link {
